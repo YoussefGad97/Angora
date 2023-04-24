@@ -1,0 +1,257 @@
+.title h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:5rem;
+    color: #f2f2f2;
+    padding-bottom: 2rem;
+}
+
+.title h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:2.5rem;
+    position:absolute
+}
+
+.title p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    color: #999999;
+
+}
+
+.mgn
+{
+    margin-top:7rem;
+    margin-bottom: 10rem;
+}
+
+.mgn2
+{
+    margin-bottom: 1.3rem;
+}
+
+.mgn3
+{
+    margin-top:2rem;
+    margin-bottom: 5rem;
+}
+
+.mgn5
+{
+    margin-top:2rem;
+}
+
+
+
+.links
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#team i
+{
+    font-size:1.5rem;
+}
+
+.fontwght
+{
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+    font-size:13px;
+}
+
+.fontsz
+{
+    font-size: 30px;
+}
+
+.fontsz2
+{
+    font-size: 1.3rem;
+}
+
+.fontsz3
+{
+    font-size: 1.5625rem;
+}
+
+.fontsz4
+{
+    font-size:0.875rem;
+    color:#b0b0b0;
+
+}
+
+.fontsz6
+{
+    font-size:4rem;
+}
+
+
+.details h3
+{
+    font-size:18px;
+}
+
+#services i
+{
+    color:red;
+    font-size: 25px;
+}
+
+
+#services
+{
+    background-color: #fafafa;
+}
+
+.wdth
+{
+    width:8rem;
+}
+
+.wdth2
+{
+    width:80px;
+    height:80px;
+}
+
+.locate
+{
+    top:39rem;
+    left:0.01rem;
+}
+
+.locate2
+{
+    top:45rem;
+    left:0.01rem;
+}
+
+#contact
+{
+    background-color: #fafafa;
+}
+
+.footer
+{
+    background: #222222;
+    color:white;
+}
+
+.anim 
+{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(-50% ,-50%);
+	}
+}
+
+.collect-btns
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header .btn-cst
+{
+    border: 1px solid white;
+}
+
+.header button:hover
+{
+    color: red;
+}
+
+
+#services .service:hover .details h3
+{
+    color:red;
+    transition:0.9s;
+}
+
+#about .skill .progress-bar
+{
+    animation: anim2 2s ease 0s 1 normal forwards;
+}
+
+@keyframes anim2
+ {
+	0% {
+		transform: translateX(-500px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+#team .member:hover .member-details h5
+{
+    color:red;
+    transition:1s;
+}
+
+#team .member .member-img .links a i 
+{
+    color:transparent;
+}
+
+#team .member .member-img:hover .links a i 
+{
+    color:white;
+    transition:all 1s;
+}
+
+.links
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.member-img:hover .overlay
+{
+    opacity:1;
+}
+
+.overlay
+{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.9s ease;
+    background-color: rgba(242, 84, 84, 0.85);
+}
+
+.member-img:hover img
+{
+    transform:scale(125%);
+    transition:0.9s;
+}
